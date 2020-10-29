@@ -16,7 +16,8 @@ steps:
   displayName: 'Install Node.js'
 - task: WhiteSource@20
   inputs:
-    projectName: 'sdfghjkl'
+    cwd: '.'
+    projectName: 'newProj'
 
 - script: |
     npm install
